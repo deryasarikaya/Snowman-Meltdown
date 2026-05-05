@@ -1,6 +1,6 @@
-from game_logic import play_game
+from game_logic import start_game
 
 
 
 if __name__ == "__main__":
-    play_game()
+    start_game()
