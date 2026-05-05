@@ -40,6 +40,7 @@ def get_valid_guess():
         else:
             return guess
 
+
 def start_game():
     """Handles replay option."""
     while True:
@@ -50,6 +51,7 @@ def start_game():
         if choice != "y":
             print("Goodbye!")
             break
+
 
 def play_game():
     """Runs the main game loop until the player wins or loses."""
