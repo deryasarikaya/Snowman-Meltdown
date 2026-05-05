@@ -5,10 +5,12 @@ from ascii_art import STAGES
 WORDS = ["python", "git", "github", "snowman", "meltdown"]
 
 def get_random_word():
+    """Returns a random word from the WORDS list."""
     return WORDS[random.randint(0, len(WORDS) - 1)]
 
 
 def display_game_state(mistakes, secret_word, guessed_letters):
+    """Displays the current snowman stage and the progress of the guessed word."""
 
     print("-" * 30)
     print(STAGES[mistakes])
